@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script src="./node_modules/bootstrap/dist/css/"></script>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    
+    <div class="container">
+        <label for="num1">Enter the first number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="num1" >
+        <br><br>
+        <label for="num2">Enter the second number</label>
+        <input type="text" id="num2">
+        <br><br>
+        <label for="operation">Specify the operation</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="operation">  
+            <option>Choose operation</option>  
+            <option>+</option>  
+            <option>-</option>  
+            <option>*</option>  
+            <option>/</option>  
+            </select>  
+        <br><br>
+        <button id="calc" onclick="calc()">calculate</button>
+        <br><br>
+        <input type="number" id="result" readonly>
+    </div>
 </body>
 </html>

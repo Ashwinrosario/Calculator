@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    font-size: medium;
+    background-color:burlywood;
+}
+.container{
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3%;
+    background-color:white;
+    margin: 10%;
+}
+input, label, button{
+    background-color: white;
+    border-radius: 5px;
+}
+#calc{
+    border-radius:5px;
+    background-color: green;
+    right: 0%;
+}
+#operation{
+    background-color: white;
+}
+option{
+    background-color: white;
+
+}
